@@ -58,6 +58,7 @@ public class JpaTest {
 		diego.setName("Diego");
 		diego.setLastName("Cardenas");
 		diego.setEmail("ejemplo@test.com");
+		diego.setAge(26);
 		diego.addHomes(home);
 		home.addElectronicDevice(electronicDevice);
 		home.addElectronicDevice(electronicDeviceTwo);
