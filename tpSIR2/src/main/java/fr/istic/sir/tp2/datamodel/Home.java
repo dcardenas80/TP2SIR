@@ -58,6 +58,18 @@ public class Home {
 		this.electronicDevice = electronicDevice;
 	}
 	
-	
+	@Override
+	public String toString() {
+		StringBuilder homeString = new StringBuilder();
+		homeString.append("Home [id=" + id + ", name=" + name) ;
+		for (ElectronicDevice electronicDevice2 : electronicDevice) {
+			homeString.append(", Electronic Device: "+electronicDevice2.toString());
+		}
+		for (Heater heater2 :heater) {
+			homeString.append(", Heater: "+ heater2.toString());
+		}
+		homeString.append("]");
+		return homeString.toString();
+	}
 	
 }

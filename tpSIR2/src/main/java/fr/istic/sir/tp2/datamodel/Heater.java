@@ -29,6 +29,9 @@ public class Heater {
 	public void setHeaterDescription(String heaterDescription) {
 		this.heaterDescription = heaterDescription;
 	}
-	
+	@Override
+	public String toString() {
+		return "Heater [id=" + id + ", Heater Description=" + heaterDescription + "]";
+	}
 
 }

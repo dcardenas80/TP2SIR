@@ -79,7 +79,13 @@ public class Person {
 
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", name=" + name + ", last name:" + lastName + ", email: " + email + "]";
+		StringBuilder personString  = new StringBuilder();
+		personString.append("Person [id=" + id + ", name=" + name + ", last name:" + lastName + ", email: " + email);
+		for (Home home : homes) {
+			personString.append(", Home: "+home.toString());
+		}
+		personString.append( "]");
+		return personString.toString();
 	}
 
 }
