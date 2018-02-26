@@ -1,5 +1,6 @@
 # TP2SIR
-Ce projet s'appuie sur JPA pour faire l'implementation du model de données d'une application qui cherche à faire la comparaison de la consomation d'energie entre un utilisateur et ses amies, c'est-a-dire une espece de reseau social. Cette application utilise JPA avec l'implementation Hibernate et se connecte à une base de donnees MySQL.
+
+Ce projet s'appuie sur JPA pour faire la mise en oeuvre du modelé de données d'une application qui cherche à faire la comparaison de la consommation d'énergie entre un utilisateur et ses amies, c'est-a-dire une espèce de réseau social. Cette application utilise JPA avec l'a distribution Hibernate et se connecte à une base de données MySQL.
 
 ### Instalation 
 
