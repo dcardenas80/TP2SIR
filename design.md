@@ -15,4 +15,6 @@ Dans ce pacquage on trouve l'entityManager et la classe charge de faire un test 
 - ##### EntityManager cette classe est charge d'appeler l'unité de persistance et aussi de créer l'entity manager qui sera charge de commencer les transactions, faire requêtes et faire commit.
 - ##### JpaTest - cette classe est charge d'un petit test de création de personnes, maisons, chauffages et dispositif électroniques.
 
+### Diagramme de classes
+![alt text](/TP2SIR.jpg)
 
